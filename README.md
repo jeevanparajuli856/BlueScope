@@ -23,8 +23,8 @@ It’s designed for research, troubleshooting, and educational purposes, not for
 Make sure you have Python 3.9+ installed. Then:
 
 ```bash
-git clone https://github.com/<your-username>/bluetooth-sniffer.git
-cd bluetooth-sniffer
+git clone https://github.com/jeevanparajuli856/BlueScope
+cd BlueScope
 pip install -r requirements.txt
 ```
 
