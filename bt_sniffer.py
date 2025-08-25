@@ -1,13 +1,3 @@
-# Features
-# - BLE scan (via bleak): logs address, name, RSSI, TX power, appearance, connectable,
-#   address type, service UUIDs, service/manufacturer data.
-# - Classic scan (via PyBluez): logs address, name, and class of device (CoD).
-# - Writes results to JSON and/or CSV. Aggregates multiple sightings per device
-#   and records first_seen / last_seen timestamps and a sighting count.
-# - Works on Linux, Windows, and macOS (BLE). Classic scan support varies by OS.
-# - No packet interception/decryption; this collects only advertisement/Inquiry data.
-#   Use responsibly and comply with local laws and policies.
-
 import argparse
 import asyncio
 import csv
@@ -63,7 +53,7 @@ class DeviceRecord:
             "sightings": self.sightings,
         }
 
-# ---------- BLE scan implementation (bleak) ----------
+#BLE scan implementation (bleak)
 
 async def scan_ble(duration, adapter, verbose=False):
     try:
