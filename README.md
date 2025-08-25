@@ -1,7 +1,7 @@
 # Bluetooth Sniffer & Logger
 
 A cross-platform Python tool to scan **nearby Bluetooth devices** (BLE & Classic), log their details, and export results to **JSON** or **CSV**.  
-It’s designed for research, troubleshooting, and educational purposes — not for intercepting or decrypting traffic.
+It’s designed for research, troubleshooting, and educational purposes, not for intercepting or decrypting traffic.
 
 ## Features
 - **BLE Scanning** (via [Bleak](https://github.com/hbldh/bleak)):
@@ -18,7 +18,7 @@ It’s designed for research, troubleshooting, and educational purposes — not 
   - Export results as JSON or CSV
   - Includes timestamp and detailed metadata
 
-## 🚀 Installation
+## Installation
 
 Make sure you have Python 3.9+ installed. Then:
 
@@ -39,7 +39,7 @@ sudo apt-get install bluetooth libbluetooth-dev python3-dev
 
 ---
 
-## 🖥️ Usage
+## Usage
 
 Basic BLE scan for 20 seconds:
 ```bash
